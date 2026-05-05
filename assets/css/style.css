@@ -8,11 +8,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffb03b;
+  color: #e07830;
 }
 
 a:hover {
-  color: #ffc56e;
+  color: #f0a020;
   text-decoration: none;
 }
 
@@ -27,12 +27,12 @@ h6 {
 /* Topbar Styling */
 
 #topbar {
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-  color: white; /* Text color */
-  padding: 10px 20px; /* Padding inside the topbar */
-  width: 100%; /* Full width */
-  box-sizing: border-box; /* Include padding in width */
-  z-index: 999; /* Ensure it's above other content */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 999;
 }
 
 .container-xl {
@@ -51,7 +51,7 @@ h6 {
   padding: 10px 20px;
   border-radius: 4px;
   z-index: 999;
-  opacity: 0.8; /* Adjust opacity as desired */
+  opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
 }
 /*--------------------------------------------------------------
@@ -64,7 +64,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb03b;
+  background: #2a8fa0;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -78,7 +78,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffc064;
+  background: #e07830;
   color: #fff;
 }
 
@@ -109,7 +109,7 @@ h6 {
 }
 
 #topbar i {
-  color: #ffb03b;
+  color: #e8c97a;
   line-height: 0;
 }
 
@@ -160,18 +160,16 @@ h6 {
   max-height: 40px;
 }
 
-/* Media query for small screens (e.g., mobile) */
 @media (max-width: 768px) {
-  /* Reduce font size of header */
   #header .logo h1 {
-    font-size: 20px; /* Adjust the font size for smaller screens */
+    font-size: 20px;
   }
 }
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #ffb03b;
+  background: #e07830;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -184,7 +182,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #da8709;
+  background: #c8392a;
   color: #fff;
 }
 
@@ -206,10 +204,10 @@ h6 {
   display: none;
 }
 /*--------------------------------------------------------------
-# Book a table button Menu
+# Sign up button
 --------------------------------------------------------------*/
 .sign-up-btn {
-  background: #ffb03b;
+  background: #e07830;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -222,35 +220,28 @@ h6 {
 }
 
 .sign-up-btn:hover {
-  background: #da8709;
+  background: #c8392a;
   color: #fff;
 }
 
 .menu .button-container {
-  margin-top: 30px; /* Add margin above the button container */
+  margin-top: 30px;
 }
 
-@media (max-width: 992px) {
-
-}
 .scrollable-container {
-  height: 200px; /* Set a fixed height */
-  overflow-y: auto; /* Enable vertical scrolling */
-  border: 1px solid #ccc; /* Optional: adds a border around the scrollable area */
-  padding: 10px; /* Adds some padding inside the container */
-  margin-bottom: 20px; /* Adds space below the container */
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
 }
-
 
 .agreement-text {
-  margin-bottom: 10px; /* Adds space between the text and the checkbox */
+  margin-bottom: 10px;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation
-*/
 .navbar {
   padding: 0;
 }
@@ -291,14 +282,13 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb03b;
+  color: #e8c97a;
 }
 
 .navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 24px;
-  /* top: calc(100% + 30px);*/
   margin: 0;
   padding: 10px 0;
   z-index: 99;
@@ -328,7 +318,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .navbar .dropdown:hover>ul {
@@ -348,14 +338,6 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-  }
 }
 
 /**
@@ -422,7 +404,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .navbar-mobile .getstarted,
@@ -457,7 +439,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -516,7 +498,7 @@ h6 {
 }
 
 #hero h2 span {
-  color: #ffb03b;
+  color: #e8c97a;
 }
 
 #hero p {
@@ -594,8 +576,8 @@ h6 {
   margin: 10px 10px;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #ffb03b;
-  background: #ffb03b;
+  border: 2px solid #e07830;
+  background: #e07830;
 }
 
 #hero .name-signup-email,
@@ -610,15 +592,13 @@ h6 {
   margin: 5px 10px;
   animation-delay: 0.8s;
   color: rgb(35, 33, 33);
-  border: 2px solid #ffb03b;
-  /* background: transparent;  Add this if you want the input field to be transparent */
+  border: 2px solid #e8c97a;
 }
 
 #hero .btn-book:hover {
-  background: #e88d05;
+  background: #c8392a;
   color: #fff;
 }
-
 
 @media (max-width: 768px) {
   #hero h2 {
@@ -637,25 +617,22 @@ h6 {
   }
 }
 
-
-/* Styles for smaller screens (e.g., phones) */
 @media (max-width: 480px) {
   #hero .btn-book,
   #hero .name-signup-email,
   #hero .book-signup-email {
-    margin: 3px 5px; /* Less margin */
+    margin: 3px 5px;
     padding: 6px 16px;
     letter-spacing: 0.5px;
     font-size: 11px;
   }
 
-  /* Adjust input fields and buttons for smaller screens */
   input[type="text"],
   input[type="email"],
   button[type="submit"] {
-    font-size: 11px; /* Smaller font size */
-    padding: 8px 20px; /* Less padding */
-    margin: 3px 5px; /* Less margin */
+    font-size: 11px;
+    padding: 8px 20px;
+    margin: 3px 5px;
   }
 }
 
@@ -679,11 +656,11 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #5f5950;
+  color: #1a3a4a;
 }
 
 .section-title h2 span {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .section-title p {
@@ -773,7 +750,7 @@ section {
 .about .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #5f5950;
+  color: #1a3a4a;
 }
 
 .about .content h4 {
@@ -803,7 +780,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #2a8fa0;
   position: absolute;
   left: 0;
   top: 2px;
@@ -822,38 +799,35 @@ section {
 }
 .video-box {
   position: relative;
-  width: 100%; /* Adjust based on your layout needs */
-  max-width: 500px; /* Maximum width of the video container */
-  margin: 0 auto; /* Center the video horizontally */
-   /*padding: 20px; Add some padding around the video */
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .video-box video {
-  width: 80%; /* Make the video responsive */
-  height: auto; /*Maintain aspect ratio */
-  border-radius: 5px; /* Optional: Add rounded corners to the video */
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
 }
 
-/* Optional: Style the play button if you decide to use one */
 .video-box a[data-vbvideo] {
   display: inline-block;
   padding: 10px 20px;
-  color: white; /* Text color */
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-/* Optional: Style the fallback text for browsers that don't support the video tag */
 .video-box video::cue {
-  color: #333; /* Text color */
-  font-size: 14px; /* Text size */
+  color: #333;
+  font-size: 14px;
 }
 
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#e07830 50%, rgba(224, 120, 48, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -889,14 +863,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 176, 59, 0.7);
+  border: 5px solid rgba(224, 120, 48, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #e07830;
   transform: scale(20);
 }
 
@@ -918,7 +892,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
   .about .content,
   .about .accordion-list {
     padding-left: 0;
@@ -949,7 +922,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Whu Us
+# Why Us
 --------------------------------------------------------------*/
 .why-us .box {
   padding: 50px 30px;
@@ -962,7 +935,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ffcf88;
+  color: #e8c97a;
 }
 
 .why-us .box h4 {
@@ -970,7 +943,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #6c665c;
+  color: #1a3a4a;
 }
 
 .why-us .box p {
@@ -981,7 +954,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #e07830;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -1014,14 +987,14 @@ section {
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #e07830;
   border-radius: 50px;
 }
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
   color: #fff;
-  background: #ffb03b;
+  background: #e07830;
 }
 
 .menu #menu-flters li:last-child {
@@ -1053,7 +1026,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #ff9b08;
+  color: #e07830;
 }
 
 .menu .menu-content span {
@@ -1093,12 +1066,12 @@ section {
 }
 
 .specials .nav-link:hover {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
+  color: #e07830;
+  border-color: #e07830;
 }
 
 .specials .tab-pane.active {
@@ -1109,7 +1082,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #433f39;
+  color: #1a3a4a;
 }
 
 .specials .details p {
@@ -1128,7 +1101,7 @@ section {
 
   .specials .nav-link.active {
     color: #fff;
-    background: #ffb03b;
+    background: #e07830;
   }
 }
 /*--------------------------------------------------------------
@@ -1154,6 +1127,10 @@ section {
   color: #fff;
 }
 
+.events .section-title h2 span {
+  color: #e8c97a;
+}
+
 .events .container {
   position: relative;
 }
@@ -1176,7 +1153,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #ffb03b;
+  color: #e8c97a;
 }
 
 .events .event-item .price {
@@ -1187,7 +1164,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #ffb03b;
+  border-bottom: 2px solid #e07830;
 }
 
 .events .event-item ul {
@@ -1202,7 +1179,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ffb03b;
+  color: #2a8fa0;
 }
 
 .events .event-item p:last-child {
@@ -1222,7 +1199,7 @@ section {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #e07830;
 }
 
 .swiper-pagination-bullet {
@@ -1236,7 +1213,7 @@ section {
 
 .swiper-pagination-bullet-active {
   color: #fff;
-  background-color: #007bff;
+  background-color: #2a8fa0;
 }
 
 /*--------------------------------------------------------------
@@ -1318,7 +1295,7 @@ section {
 }
 
 .book-a-table .contact-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #e07830;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1327,9 +1304,8 @@ section {
 }
 
 .book-a-table .contact-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #c8392a;
 }
-
 
 /*--------------------------------------------------------------
 # Gallery
@@ -1353,7 +1329,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# Chefs / Instructors
 --------------------------------------------------------------*/
 .chefs {
   background: url("../img/slide/img-1.jpg") center center no-repeat;
@@ -1405,7 +1381,7 @@ section {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #6c665c;
+  color: #1a3a4a;
   position: relative;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
@@ -1417,7 +1393,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #ffcf88;
+  background: #2a8fa0;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1438,7 +1414,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #ffb03b;
+  color: #e07830;
 }
 
 .chefs .member .social i {
@@ -1476,7 +1452,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(12, 11, 10, 0.7);
+  background: rgba(26, 58, 74, 0.85);
 }
 
 .testimonials .section-header {
@@ -1504,7 +1480,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #e8c97a;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1516,7 +1492,7 @@ section {
 }
 
 .testimonials .testimonial-item .stars {
-  color: #ffb03b;
+  color: #f0a020;
   margin-bottom: 10px;
 }
 
@@ -1558,7 +1534,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #e07830;
 }
 
 @media (min-width: 992px) {
@@ -1581,11 +1557,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #e07830;
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff6e8;
+  background: #fdf0e0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1598,7 +1574,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #433f39;
+  color: #1a3a4a;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1610,7 +1586,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #ffb03b;
+  background: #e07830;
   color: #fff;
 }
 
@@ -1678,7 +1654,7 @@ section {
 }
 
 .contact .contact-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #e07830;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1687,7 +1663,7 @@ section {
 }
 
 .contact .contact-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #c8392a;
 }
 
 @keyframes animate-loading {
@@ -1699,6 +1675,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 /*--------------------------------------------------------------
 # Sign up form
 --------------------------------------------------------------*/
@@ -1707,13 +1684,13 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
   background: #fff;
-  margin: 0 auto; /* Centers the form horizontally */
-  display: flex;  /* Enables flexbox */
-  flex-direction: column; /* Stack the children vertically */
-  justify-content: center; /* Center the content vertically */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .contact .sign-up-form button[type=submit] {
-  background: #ffb03b;
+  background: #e07830;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1723,11 +1700,12 @@ section {
 .contact .sign-up-form .form-group {
   padding-bottom: 8px;
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #35322d;
+  background: #1a3a4a;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1737,7 +1715,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #e8c97a;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1757,7 +1735,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #46423b;
+  background: #2a8fa0;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1770,7 +1748,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ffb03b;
+  background: #e07830;
 }
 
 #footer .copyright {
